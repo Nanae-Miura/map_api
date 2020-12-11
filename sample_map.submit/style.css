@@ -1,0 +1,52 @@
+body{
+ background-color: rgba(0, 100, 130, 0.2);
+ /*color: rgba(0, 200, 120, 0.2);*/
+}
+#logo{
+ text-align: right;
+}
+header{
+  background-color: rgba(0, 230, 165, 0.4);
+}
+
+h1{
+  /*text-align: center;*/
+  position: relative;
+  left: 40%;
+  color: steelblue;
+  text-shadow: 1px 1px 2px silver;
+  font-weight: bold;
+  /*font-family: fantasy;*/
+}
+h2{
+  opacity: 0.8;
+  text-shadow: 1px 1px 2px silver;
+  position: relative;
+  padding-bottom: 10px;
+}
+button{
+  font-size: 18px;
+display: inline-block;
+padding: 0.5em 1em 0.3em;
+color: #ffffff;
+border-radius: 25px;
+background-color: #0099ff;
+border: none;
+  cursor: pointer;
+}
+#myMap{
+  width: 80vw; 
+  height: 80vh;
+  border: solid 1px black;
+  padding-top:50;
+}
+
+.border{
+  font-size: 18px;
+display: inline-block;
+padding: 0.5em 1em 0.3em;
+color: #ffffff;
+border-radius: 25px;
+background-color: #0099ff;
+border: none;
+}

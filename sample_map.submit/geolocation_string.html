@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>どこナビ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+
+  <div id="logo">
+    <img src="img/1_Primary_logo_on_transparent_277x67.png" alt="logo"　width="200" height="100">
+  </div>
+  <h1>どこナビ</h1>
+ <h2>今どこ？をもっと簡単に</h2>
+</header>
+
+
+
+<body>
+  <button onclick="locateMe()">現在地を取得！</button>
+  <div id="location"><h3> あなたの現在地は</h3> </div>
+  
+  <div id="adressoutput">
+    <h3>現在地の住所は</h3></div>
+  <div id="myMap">ここにマップを表示</div>
+
+  <div id="share">
+    <h3>位置情報を友達と共有する</h3>
+    <ul class="sns">
+      <li class="sns_list">
+        <a id="sns_tw" class="sns_link" href="" target="_blank">twitter</a>
+      </li>
+      <li class="sns_list">
+        <a id="sns_fb" class="sns_link" href="" target="_blank">facebook</a>
+      </li>
+      <li class="sns_list">
+        <a id="sns_line" class="sns_link" href="" target="_blank">line</a>
+      </li>
+    </ul>
+    </div>
+</body>
+
+
+
+<!-- firbaseのSDK -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<!--jQuery&GoogleMapsAPI-->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+    async defer></script>
+  <script src="js/BmapQuery.js"></script>
+  <script type="text/javascript" script src="js/main.js"></script>
+</body>
+
+</html>
